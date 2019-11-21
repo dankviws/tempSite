@@ -85,6 +85,9 @@ sup {
   top: -0.5em;
 }
 img {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
   border-style: none;
 }
 svg:not(:root) {
@@ -199,6 +202,7 @@ html {
   box-sizing: inherit;
 }
 body {
+  align-content: center;
   color: hsla(0, 0%, 0%, 0.8);
   font-family: georgia, serif;
   font-weight: normal;
@@ -210,9 +214,10 @@ body {
   font-feature-settings: "kern", "liga", "clig", "calt";
 }
 img {
+  display: block;
   max-width: 100%;
-  margin-left: 0;
-  margin-right: 0;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 0;
   padding-bottom: 0;
   padding-left: 0;
