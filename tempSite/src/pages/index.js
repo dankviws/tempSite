@@ -7,9 +7,10 @@ import SEO from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
+    <SEO title="viws" />
+    <div style={{ maxWidth: `400px`, marginBottom: `1.45rem`, display: `block`, marginLeft: `auto`, marginRight: `auto`, textAlign: `center` }}>
       <Image />
+      <h3>Website under construction... We'll be back online soon with our new website!</h3>
     </div>
     <Link to="/page-2/">Go to page 2</Link>
   </Layout>
