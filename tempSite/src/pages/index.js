@@ -12,7 +12,7 @@ const IndexPage = () => (
       <Image />
       <h3>Website under construction... We'll be back online soon with our new website!</h3>
     </div>
-    <Link to="/page-2/">Go to page 2</Link>
+    {/* <Link to="/page-2/">Go to page 2</Link> */}
   </Layout>
 )
 
