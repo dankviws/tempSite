@@ -35,13 +35,22 @@ const Layout = ({ children }) => {
         }}
       >
         <main style={{
-          height: `90vh`, 
-        }}>{children}</main>
-        <footer style={{
-          textAlign: `center`
-        }}>
-        <a href="mailto:admin@viws.io"><button>Contact Us</button></a>
-        <br></br>
+            height: `90vh`, 
+          }}>{children}
+        </main>
+        <footer 
+          style={{
+            fontFamily: `Roboto`,
+            textAlign: `center`
+          }}>
+          <a href="mailto:admin@viws.io">
+            <button 
+              style={{
+                borderRadius: `4px`
+              }}>Contact Us
+            </button>
+          </a>
+          <br></br>
           © {new Date().getFullYear()} viws LLC
         </footer>
       </div>
